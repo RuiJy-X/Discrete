@@ -1,0 +1,43 @@
+.navbar-bg{
+    background-color: #17252A;
+}
+
+@font-face {
+    font-family: "Heavitas";
+    src: url("/resources/fonts/heavitas/Heavitas.ttf");
+}
+.navbar-text{
+    font-size: 24px;
+    font-family: "Heavitas";
+    color: #FEFFFF !important;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #3AAFA9 !important;  
+}
+
+.card-bg{
+    background-color: #17252A !important;
+}
+
+.card-title-text{
+    font-family: "Heavitas";
+    font-size: 14px;
+    color: #FEFFFF !important;
+}
+
+.custom-shadow{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3) !important; /* X, Y, Blur, Spread */
+    border-radius: 10px !important; /* Optional: Smooth rounded corners */
+}
+.card-hover{
+    transition: transform 0.8s ease-in, box-shadow 0.8s ease-in;
+}
+
+.card-hover:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 1s ease-out, box-shadow 1s ease-out;
+}
