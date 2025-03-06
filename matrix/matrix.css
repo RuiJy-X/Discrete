@@ -6,6 +6,12 @@
     font-family: "Heavitas";
     src: url("/resources/fonts/heavitas/Heavitas.ttf");
 }
+
+@font-face{
+    font-family: "Outfit";
+    src: url("/resources/fonts/Outfit/static/Outfit-Regular.ttf")
+}
+
 .navbar-text{
     font-size: 24px;
     font-family: "Heavitas";
@@ -26,4 +32,48 @@ body{
 
 .current{
     color: #FFE589 !important;
+}
+
+body{
+    height: 100vh;
+    background-color: #3AAFA9 !important;  
+}
+
+.flashcard{
+    height: 75%;
+    width: 70%;
+    background-color: #17252A;
+    border: 1px solid #17252A;
+    border-radius: 10px;
+}
+
+.custom-shadow{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3) !important; /* X, Y, Blur, Spread */
+    border-radius: 10px !important; /* Optional: Smooth rounded corners */
+}
+
+.title {
+    font-size: 16px;
+    font-family: "Outfit";
+    color: white;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-family: "Outfit";
+    color: white;
+}
+
+.matrix{
+    background-image: url("/resources/imgs/br2.png");
+    object-fit: contain;
+}
+
+.matrix-input{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    text-align: center;
 }
