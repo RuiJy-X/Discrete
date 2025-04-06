@@ -45,6 +45,9 @@ body{
     background-color: #17252A;
     border: 1px solid #17252A;
     border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .custom-shadow{
@@ -100,5 +103,15 @@ body{
     transform: translateY(-10px);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
     transition: transform 1s ease-out, box-shadow 1s ease-out;
+}
+
+.custom-dropdown {
+    width: 50px; /* Adjust the width as needed */
+}
+
+.bg-dark-custom{
+    background-color: #17252A;
+    border: 1px solid #17252A;
+    border-radius: 10px;
 }
 

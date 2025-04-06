@@ -16,6 +16,8 @@
 body{
     height: 100vh;
     background-color: white !important;  
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .nav-text{
@@ -27,3 +29,23 @@ body{
 .current{
     color: #FFE589 !important;
 }
+
+.bg-dark-custom{
+    background-color: #17252A;
+    border: 1px solid #17252A;
+    border-radius: 10px;
+}
+
+.input-panel {
+    margin: 20px;
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+
+  .vectorList{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
