@@ -6,6 +6,11 @@
     font-family: "Heavitas";
     src: url("/resources/fonts/heavitas/Heavitas.ttf");
 }
+
+@font-face{
+    font-family: "Outfit";
+    src: url("/resources/fonts/Outfit/static/Outfit-Regular.ttf")
+}
 .navbar-text{
     font-size: 24px;
     font-family: "Heavitas";
@@ -51,6 +56,12 @@ body{
   .vectorList{
     border: 1px solid #ccc;
     margin-top: 10px;
+  }
+
+  label{
+    font-size: 16px;
+    color: #17252A;
+    font-family: "Outfit";
   }
 
   
