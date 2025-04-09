@@ -54,7 +54,7 @@ function drawArrow(fromX, fromY, toX, toY, color = 'black') {
     ctx.lineTo(toX, toY);
     ctx.stroke();
 
-    // Draw arrowhead
+    
     
 }
 
@@ -69,7 +69,7 @@ function drawGrid() {
     ctx.strokeStyle = "#ddd";
     ctx.lineWidth = 1;
 
-    // Vertical lines
+    // vertical lines
     for (let x = origin.x % step; x <= displayWidth; x += step) {
         ctx.beginPath();
         ctx.moveTo(x, 0);
@@ -79,10 +79,10 @@ function drawGrid() {
         const label = (x - origin.x) / (spacing * scale)
         ctx.fillStyle = "#000";
         ctx.font = "10px Arial";
-        ctx.fillText(label.toFixed(0), x + 2, origin.y + 12); // Adjust the position of the label
+        ctx.fillText(label.toFixed(0), x + 2, origin.y + 12); // adjust the position of the label
     }
 
-    // Horizontal lines
+    // horizontal lines
     for (let y = origin.y % step; y <= displayHeight; y += step) {
         ctx.beginPath();
         ctx.moveTo(0, y);
@@ -92,14 +92,14 @@ function drawGrid() {
         const label = -1 *((y - origin.y) / (spacing * scale))
         ctx.fillStyle = "#000";
         ctx.font = "10px Arial";
-        ctx.fillText(label.toFixed(0), origin.x + 2, y - 2); // Adjust the position of the label
+        ctx.fillText(label.toFixed(0), origin.x + 2, y - 2); // adjust the position of the label
     }
 
-    // Axes
+    
     ctx.strokeStyle = "#000";
     ctx.lineWidth = 2;
 
-    // Y Axis
+    
     ctx.beginPath();
     ctx.moveTo(origin.x, 0);
     ctx.lineTo(origin.x, displayHeight);

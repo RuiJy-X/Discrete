@@ -49,9 +49,7 @@ function answer(){
         [document.querySelector("#a11").value, document.querySelector("#a12").value],
         [document.querySelector("#a21").value, document.querySelector("#a22").value]
     ]
-
     
-
     result[0][0] = matrix1[0][0] + matrix2[0][0];   
     result[0][1] = matrix1[0][1] + matrix2[0][1];
     result[1][0] = matrix1[1][0] + matrix2[1][0];
