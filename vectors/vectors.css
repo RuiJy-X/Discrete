@@ -42,10 +42,15 @@ body{
   
   canvas {
     border: 1px solid #ccc;
-    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
   }
 
   .vectorList{
     border: 1px solid #ccc;
     margin-top: 10px;
   }
+
+  
