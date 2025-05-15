@@ -27,3 +27,15 @@ body{
 .current{
     color: #FFE589 !important;
 }
+
+.controls {
+  margin-bottom: 20px;
+}
+canvas {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+input {
+  width: 40px;
+  margin: 0 5px;
+}
